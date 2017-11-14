@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Mosquitood\\Component\\Collection\\": "src"
+      "Mosquitood\\Collection\\": "src"
     },
     "exclude-from-classmap": [
       "../tests/"
