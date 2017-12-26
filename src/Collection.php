@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mosquitood\Component\Collection;
+namespace Mosquitood\Collection;
 
 use ArrayInterator;
 
@@ -108,7 +108,9 @@ class Collection implements CollectionInterface
 
     public function replace(array $items = [])
     {
-        $this->items = $items; 
+        foreach($items as $key => $value){
+            $this->set($key, $value);
+        }
     }
 
     /**

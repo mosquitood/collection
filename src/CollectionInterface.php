@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mosquitood\Component\Collection; 
+namespace Mosquitood\Collection; 
 
 /**
  * Collection Interface
